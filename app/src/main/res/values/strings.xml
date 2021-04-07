@@ -1,0 +1,37 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">TEST</string>
+    <!-- Search breadcrumb connector symbol -->
+    <string name="search_breadcrumb_connector" translatable="false">
+        <xliff:g name="first_item">%1$s</xliff:g> > <xliff:g name="second_item">%2$s</xliff:g>
+    </string>
+    <string name="title_activity_main2">MainActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <!-- Setting USBPathControl -->
+    <string name="usbpath_settings_title">USB Path Options</string>
+    <string name="usb_path_message_settings">\n\nSelected function only works.\n<b>*Notice*</b>\nNot selected functions do not work\nEx) If ‘File transfer via USB-C’ is selected,\nnot selected functions, ‘Mobile network’ will not work\n</string>
+    <string name="typec_only_settings">File Transfer via USB-C port</string>
+    <string name="typec_via_hub_settings">Mobile Network</string>
+    <string name="usb_settings">USB Settings</string>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
